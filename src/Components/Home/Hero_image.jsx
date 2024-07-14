@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HeroImage from "../Images/Hero_image.png";
 import effects from "../Images/effects.png";
 import blur from "../Images/blur.png";
@@ -25,7 +26,7 @@ const Hero_image = () => {
             Leading the Way in Medical Excellence
           </p>
           <button className="bg-[#BFD2F8] rounded-3xl py-3 px-8 font-medium mt-7">
-            Our Service
+            <Link to="/Service">Our Service</Link>
           </button>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import search from "../Images/search.png";
+import { Link } from "react-router-dom";
 
 const Nav_bar = (props) => {
   return (
@@ -7,7 +8,7 @@ const Nav_bar = (props) => {
       <div>
         <ul className="flex gap-10 text-white text-lg">
           {props.navBar.map((item, index) => {
-            return <li key={index}>{item}</li>;
+            return <li key={index}><Link to={item.ref}>{item.data}</Link></li>;
           })}
         </ul>
       </div>

@@ -2,12 +2,13 @@ import React from "react";
 import call from "../Images/Top_most_call.png";
 import time from "../Images/Top_most_time.png";
 import location from "../Images/Top_most_location.png";
+import { Link } from "react-router-dom";
 
 const Top_most = () => {
   return (
     <div className="flex justify-evenly items-center h-[60px] fixed top-0 z-50 bg-white w-full">
       <div className="text-4xl" style={{ fontFamily: '"Yeseva One", serif' }}>
-        MED<span className="text-[#159EEC]">DICAL</span>
+        <Link to="/">MED<span className="text-[#159EEC]">DICAL</span></Link>
       </div>
       <div className="flex gap-10 font-medium">
         <div className="flex gap-4 items-center">
