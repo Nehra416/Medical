@@ -7,29 +7,29 @@ import { Link } from "react-router-dom";
 const Top_most = () => {
   return (
     <div className="flex justify-evenly items-center h-[60px] fixed top-0 z-50 bg-white w-full">
-      <div className="text-4xl" style={{ fontFamily: '"Yeseva One", serif' }}>
+      <div className="sm:block hidden text-4xl font-yeseva" >
         <Link to="/">MED<span className="text-[#159EEC]">DICAL</span></Link>
       </div>
-      <div className="flex gap-10 font-medium">
-        <div className="flex gap-4 items-center">
-          <img src={call} alt="" className="w-[40px] h-[38px]" />
+      <div className="flex gap-8 font-medium">
+        <div className="flex sm:gap-4 gap-1 items-center sm:text-base text-sm">
+          <img src={call} alt="" className="sm:w-[40px] w-[30px] sm:h-[38px] h-[28px]" />
           <div>
             <p>Emergency</p>
-            <p className="text-[#159EEC]">(237) 681-812-255</p>
+            <p className="text-[#159EEC] text-xs sm:text-base">(237) 681-812-255</p>
           </div>
         </div>
-        <div className="flex gap-4 items-center">
-          <img src={time} alt="" className="w-[30px] h-[30px]" />
+        <div className="flex sm:gap-4 gap-1 items-center">
+          <img src={time} alt="" className="sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]" />
           <div>
             <p>Work Hour</p>
-            <p className="text-[#159EEC]">09:00 - 20:00 Everyday</p>
+            <p className="text-[#159EEC] text-xs sm:text-base">09:00-20:00 Perday</p>
           </div>
         </div>
-        <div className="flex gap-4 items-center">
-          <img src={location} alt="" className="w-[30px] h-9" />
+        <div className="flex sm:gap-4 gap-1 items-center">
+          <img src={location} alt="" className="sm:w-[30px] w-6 sm:h-9 h-7" />
           <div>
             <p>Location</p>
-            <p className="text-[#159EEC]">0123 Some Place</p>
+            <p className="text-[#159EEC] text-xs sm:text-base">0123 Some Place</p>
           </div>
         </div>
       </div>

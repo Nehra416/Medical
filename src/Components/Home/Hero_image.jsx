@@ -15,14 +15,14 @@ const Hero_image = () => {
         style={{
           backgroundImage: `url(${effects}), url(${blur}), url(${HeroImage}) `,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "67%",
         }}
         className="h-[550px] relative overflow-hidden"
       >
-        <img src={doctor} alt="" className="absolute h-[750px] w-[1300px] right-[-110px] top-[-80px]" />
-        <div className="w-[520px] absolute left-[186px] top-[200px]">
+        {/* <img src={doctor} alt="" className="absolute h-[750px] w-[1300px] right-[-110px] top-[-80px]" /> */}
+        <div className="max-w-[520px] absolute left-[9%] top-[200px]">
           <p className="text-[#159EEC] text-lg font-bold tracking-widest">Caring for Life</p>
-          <p className="text-[#1F2B6C] text-5xl " style={{ fontFamily: '"Yeseva One", serif' }}>
+          <p className="text-[#1F2B6C] sm:text-5xl text-4xl font-yeseva" >
             Leading the Way in Medical Excellence
           </p>
           <button className="bg-[#BFD2F8] rounded-3xl py-3 px-8 font-medium mt-7">
@@ -32,16 +32,17 @@ const Hero_image = () => {
       </div>
 
       {/* 2nd part Cards */}
-      <div className="flex justify-center gap-7 absolute top-[630px] left-[150px]">
-        <div className="bg-[#1F2B6C] flex items-center text-white py-6 px-5 gap-5 rounded-lg cursor-pointer">
+
+      <div className="flex justify-center sm:gap-7 gap-2 absolute sm:top-[630px] top-[615px] sm:left-[10%] left-[3%] sm:text-left text-center sm:text-lg text-sm pr-2">
+        <div className="bg-[#1F2B6C] flex sm:flex-row flex-col-reverse items-center text-white sm:p-4 py-2 px-1 sm:gap-5 gap-2 rounded-lg cursor-pointer">
           <p>Book an Appointment</p>
           <img src={calender} alt="" className="w-12" />
         </div>
-        <div className="bg-[#BFD2F8] flex items-center py-2 px-5 gap-5 rounded-lg cursor-pointer">
+        <div className="bg-[#BFD2F8] flex sm:flex-row flex-col-reverse items-center sm:p-4 py-2 px-1 sm:gap-5 gap-2 rounded-lg cursor-pointer">
           <p>Book an Appointment</p>
           <img src={people} alt="" className="w-12 h-11" />
         </div>
-        <div className="bg-[#159EEC] flex items-center text-white py-2 px-5 gap-5 rounded-lg cursor-pointer">
+        <div className="bg-[#159EEC] flex sm:flex-row flex-col-reverse items-center text-white sm:p-4 py-2 px-1  sm:gap-5 gap-2 rounded-lg cursor-pointer">
           <p>Book an Appointment</p>
           <img src={cash} alt="" className="w-12 h-9" />
         </div>

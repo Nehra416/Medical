@@ -50,7 +50,7 @@ const Home = () => {
             data: "Contact",
             ref: "/Contact"
         }
-       
+
     ];
 
     const service1 = ["A Passion for Healing", "All our best", "A Legacy of Excellence"];
@@ -83,8 +83,7 @@ const Home = () => {
         }
     ]
 
-    const data2 = ["Ophthalmology", "Cardiovascular", "Pulmonology", "Renal Medicine"]
-    const data3 = ["Gastroenterology", "Urology", "Dermatology", "Gynaecology"]
+    const data2 = ["Ophthalmology", "Cardiovascular", "Pulmonology", "Renal Medicine", "Gastroenterology", "Urology", "Dermatology", "Gynaecology"]
 
     const doctorImg = [doctor1, doctor2, doctor3]
 
@@ -167,14 +166,14 @@ const Home = () => {
     ]
 
     return (
-        
+
         <div>
             <Top_most />
             <Nav_bar navBar={navBar} />
             <Hero_image />
             <Welcome />
             <Services service1={service1} service2={service2} />
-            <Specialties data1={data1} data2={data2} data3={data3} />
+            <Specialties data1={data1} data2={data2} />
             <Doctors doctorImg={doctorImg} />
             <News data={newsData} />
             <Contact Data={contactData} />
