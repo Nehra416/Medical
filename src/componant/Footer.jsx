@@ -1,8 +1,8 @@
 import React from 'react'
-import fotter from './img/fotter.png'
-import fotterIn from './img/fotterIn.png'
-import fotterFb from './img/fotterFb.png'
-import fotterInsta from './img/fotterInsta.png'
+import fotter from './img/ph1.png'
+import fotterIn from './img/ph2.png'
+import fotterFb from './img/ph3.png'
+import fotterInsta from './img/ph4.png'
 
 const Footer = () => {
     return (

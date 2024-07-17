@@ -15,7 +15,7 @@ export const Body = () => {
         <>
             <div className="fist_div">
                 <div className="w-[1366px] relative z-0 opacity-[50%] "><img src={photo1} /></div>
-                <div className="w-[239px]  absolute h-[239px] bg-[#159EEC] rounded-[250px] -top-10 -left-[120px] z-[-5] opacity-[30%]" ></div>
+                <div className="w-[239px]  absolute h-[239px] bg-[#159EEC] rounded-[250px] top-10 -left-[120px] z-[-5] opacity-[30%]" ></div>
                 <div className="relative z-2  w-[296px] h-[76px] -top-[176px] ml-[175px] text-[#1F2B6C]">
                     <div className=" w-[141px] h-[25px] text-lg leading-[25.2px] ml-[14px]">Home / Doctors</div>
                     <div className="w-[296px] h-[55px] text-5xl leading-[55.44px]">Our Doctors</div>
@@ -102,12 +102,12 @@ export const Body = () => {
             </div>
             <div className="w-[1366px] h-[441px] mt-[40px] ">
                 <div className="relative"> <img src={photo5} /></div>
-                <div className="absolute w-[1366px] h-[441px] bg-[#1F2B6C] opacity-[60%] top-[1550px]"></div>
-                <div className="absolute w-[45px] h-[30px] top-[1620px] z-10 ml-[661px] "><img src={Vector} alt="" srcset="" /></div>
-                <div className=" absolute text-[22px] top-[1700px] ml-[354px] text-[#FCFEFE]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Quisque placerat scelerisque tortor ornare ornare. Quisque <br /> placerat scelerisque felis vitae tortor augue. Velit nascetur <br /> Consequat faucibus porttitor enim et.</div>
-                <div className="absolute w-[221px] h-[1px] bg-[#BFD2F8] top-[1850px] ml-[521px]"></div>
-                <div className="absolute top-[1870px] ml-[632px] text-[22px] text-[#FCFEFE]">John Doe</div>
-                <div className="absolute top-[1920px] w-[74px] h-[18px] ml-[646px]"><img src={Group62} alt="" /></div>
+                <div className="absolute w-[1366px] h-[441px] bg-[#1F2B6C] opacity-[60%] top-[1630px]"></div>
+                <div className="absolute w-[45px] h-[30px] top-[1700px] z-10 ml-[661px] "><img src={Vector} alt="" srcset="" /></div>
+                <div className=" absolute text-[22px] top-[1768px] ml-[354px] text-[#FCFEFE]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Quisque placerat scelerisque tortor ornare ornare. Quisque <br /> placerat scelerisque felis vitae tortor augue. Velit nascetur <br /> Consequat faucibus porttitor enim et.</div>
+                <div className="absolute w-[221px] h-[1px] bg-[#BFD2F8] top-[1915px] ml-[521px]"></div>
+                <div className="absolute top-[1925px] ml-[632px] text-[22px] text-[#FCFEFE]">John Doe</div>
+                <div className="absolute top-[2000px] w-[74px] h-[18px] ml-[646px]"><img src={Group62} alt="" /></div>
             </div>
             <div className="w-[1366px] h-[636px]">
                 <div>
