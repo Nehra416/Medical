@@ -1,15 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import { Header } from './Component/Header';
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Appointment from "./Component/Appointment";
+import { Mape } from "./Component/Mape";
+ 
+ 
 function App() {
+
   return (
-    <div className="App">
-      <Header/>
-       <h1>hlo  </h1>
-       <h2>hii</h2>
-    </div>
+    <>
+     <Appointment/>
+     <Mape/>
+      <footer/>
+    </>
+    
   );
 }
 
 export default App;
+ 
