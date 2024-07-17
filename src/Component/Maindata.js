@@ -1,15 +1,48 @@
 
 import React from 'react';
-import Contact from './Contact'; // Adjust the path as necessary
-import Map from './Map';         // Adjust the path as necessary
-import Iteam1 from './Iteam1';   // Adjust the path as necessary
-import Footer2 from './Footer2'; // Adjust the path as necessary
-import Footer from './Footer';    // Adjust the path as necessary
+import Contact from './Contact'; 
+import Map from './Map';        
+import Iteam1 from './Iteam1';   
+import Footer2 from './Footer2'; 
+import Footer from './Footer';   
+// import Top_most from '../Components/Home/Top_most';
+import Top_most from '../Components/Home/Top_most';
+import Nav_bar from '../Components/Home/Nav_bar';
+
+const navbar=[
+     
+    {
+        data: "Home",
+        ref: "/"
+    },
+    {
+        data: "About Us",
+        ref: "/About"
+    },
+    {
+        data: "Services",
+        ref: "/Service"
+    },
+    {
+        data: "Doctors",
+        ref: "/Doctors"
+    },
+    {
+        data: "News",
+        ref: "/News"
+    },
+    {
+        data: "Contact",
+        ref: "/Contact"
+    }
+]
 
 const Maindata = () => {
     return (
         <div>
-            <Contact />
+              <Top_most/>
+              <Nav_bar nav={navbar}/>
+              <Contact />
             <Map />
             <Iteam1 />
             <Footer2 />

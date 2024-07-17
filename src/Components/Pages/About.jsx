@@ -133,8 +133,8 @@ const About = () => {
     return (
         <div>
             <Top_most />
-            <Nav_bar navBar={navBar} />
-            <About_header />
+            <Nav_bar nav={navBar} />
+            <About_header  />
             <About_welcome/>
             <Testimonal />
             <Doctors doctorImg={doctorImg} />

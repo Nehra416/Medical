@@ -11,12 +11,15 @@ import About from "./Components/Pages/About";
 // import Footer2 from './Component/Footer2';
 // import Footer from './Component/Footer';
  import Maindata from "./Component/Maindata";
+import Usecustomhook from "./Component/Usecustom/Usecustomhook";
  
 function App() {
 
   return (
     <>
+    
       <Router>
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />

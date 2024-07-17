@@ -5,7 +5,7 @@ import image4 from "./main.jpeg";
 const Contact = () => {
   return (
     <div>
-     <div className='relative h-[250px] w-full m-auto top-[160px]'>
+     <div className='relative h-[250px] w-full m-auto top-[130px]'>
       <div
         className='absolute inset-0 bg-cover bg-center opacity-50'
         style={{ backgroundImage: `url(${image4})`, backgroundPosition: 'center 45%' }}

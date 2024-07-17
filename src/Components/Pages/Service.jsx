@@ -108,7 +108,7 @@ const Service = () => {
     return (
         <div>
             <Top_most />
-            <Nav_bar navBar={navBar} />
+            <Nav_bar nav={navBar} />
             <Service_header />
             <Checkup checkup={checkup} />
             <Contact Data={contactData} />
