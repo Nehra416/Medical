@@ -1,15 +1,14 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Appointment from "./Component/Appointment";
-import { Mape } from "./Component/Mape";
- 
+ import Ads from "./Component/Ads";
+   
  
 function App() {
 
   return (
     <>
-     <Appointment/>
-     <Mape/>
-      <footer/>
+    
+
+      <Ads/>
+    
     </>
     
   );

@@ -4,8 +4,8 @@ import imag2 from "./emergency-phone.svg";
 
 export const Part1 = () => {
   return (
-    <div>
-      <div className='h-[650px] w-[992px] top-[474px] left-[187px] grid grid-cols-2 m-auto mt-[100px]'>
+    <div> 
+      <div className=' absolute h-[650px] w-[992px] top-[474px] left-[187px] grid grid-cols-2 m-auto'>
         <div className='h-[650px] w-[446px]'>
           <div className='h-[141px] w-[491px]'>
             <h1 className='text-4xl text-blue-950 font-sans font-bold text-left '>Book an Appointment</h1>
