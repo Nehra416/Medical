@@ -3,8 +3,8 @@ import Home from "./Components/Pages/Home";
 import Service from "./Components/Pages/Service";
 import Single_service from "./Components/Pages/Single_service";
 import About from "./Components/Pages/About";
-import Doctors from "../src/componant/Doctors";
-
+import Ads from "./Components/Ads";
+ import Doctors from "./Components/Home/Doctors";
 function App() {
 
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path="/Service" element={<Service />} />
           <Route path="/Single_service" element={<Single_service />} />
           <Route path="/Doctors" element={<Doctors/>}></Route>
+        <Route path="/ads" element={<Ads/>}/>
         </Routes>
       </Router>
     </>
@@ -24,3 +25,4 @@ function App() {
 
 
 export default App;
+ 

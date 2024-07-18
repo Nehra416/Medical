@@ -49,7 +49,9 @@ const Home = () => {
         {
             data: "Contact",
             ref: "/Contact"
-        }
+        },
+      
+
 
     ];
 
@@ -169,7 +171,7 @@ const Home = () => {
 
         <div>
             <Top_most />
-            <Nav_bar navBar={navBar} />
+            <Nav_bar nav={navBar} />
             <Hero_image />
             <Welcome />
             <Services service1={service1} service2={service2} />
@@ -177,7 +179,7 @@ const Home = () => {
             <Doctors doctorImg={doctorImg} />
             <News data={newsData} />
             <Contact Data={contactData} />
-            <Footer />
+             <Footer />
         </div>
     )
 }

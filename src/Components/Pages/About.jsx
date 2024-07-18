@@ -46,7 +46,8 @@ const About = () => {
         {
             data: "Contact",
             ref: "/Contact"
-        }
+        },
+        
 
     ];
 
@@ -133,7 +134,7 @@ const About = () => {
     return (
         <div>
             <Top_most />
-            <Nav_bar navBar={navBar} />
+            <Nav_bar nav={navBar} />
             <About_header />
             <About_welcome/>
             <Testimonal />

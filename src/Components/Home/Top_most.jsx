@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Top_most = () => {
   return (
-    <div className="flex justify-evenly items-center h-[60px] fixed top-0 z-50 bg-white w-full">
+    <div className="flex justify-evenly items-center h-[80px] fixed top-0 z-50 bg-white w-[1366px]">
       <div className="sm:block hidden text-4xl font-yeseva" >
         <Link to="/">MED<span className="text-[#159EEC]">DICAL</span></Link>
       </div>
