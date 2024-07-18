@@ -2,14 +2,14 @@ import React from "react";
 import phh1 from './img/phhh1.png'
 import phh2 from './img/phhh2.png'
 import phh3 from './img/phhh3.png'
-
+import { Link } from "react-router-dom";
 const Top_most = () => {
   return (
     <>
       <div className="h-[80px] w-[1366px] flex z-[10] bg-[#FCFEFE]">
         <div className="flex ml-[187px] pt-[14px]">
-          <div className="text-[36px] text-[#1F2B6C] ">MED</div>
-          <div className="text-[36px] text-[#159EEC] ">DICAL</div>
+          <div className="text-[36px] text-[#1F2B6C] font-yeseva "> <Link to="/">MED</Link></div>
+          <div className="text-[36px] text-[#159EEC] font-yeseva "><Link to="/">DICAL</Link></div>
         </div>
        
           <div className="flex flex-col md:flex-row gap-4 font-medium pt-[6px] ml-[275px]">
