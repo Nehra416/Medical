@@ -15,12 +15,14 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/Single_service" element={<Single_service />} />
+          <Route path="/Doctors" element={<Doctors/>}></Route>
         <Route path="/ads" element={<Ads/>}/>
         </Routes>
       </Router>
     </>
   );
 }
+
 
 export default App;
  
