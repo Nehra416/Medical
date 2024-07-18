@@ -6,7 +6,7 @@ import fotterInsta from './insta.png';
 
 export const Footer = () => {
     return (
-        <div className='bg-[#1F2B6C] px-[5%] mt-[300px] relative top-[1802px] w-[1366px]'>
+        <div className='bg-[#1F2B6C]  m-auto absolute top-[2129px] w-full ml- h-[427px]'>
             <div className='text-white flex flex-col md:flex-row justify-center gap-8 pt-20 pb-10'>
                 <div className='w-full md:w-[250px] text-center md:text-left'>
                     <h1 className='text-[#BFD2F8] text-4xl mb-5' style={{ fontFamily: '"Yeseva One", serif' }}>Meddical</h1>
@@ -37,11 +37,11 @@ export const Footer = () => {
                     </p>
                 </div>
             </div> 
-            <hr className='border-gray-400' />
+            <hr className='border-gray-400 ml-40 mr-40' />
 
-            <div className='flex flex-col md:flex-row justify-between items-center py-10 text-[#FCFEFE]'>
+            <div className='flex flex-col md:flex-row justify-between items-center py-10 text-[#FCFEFE] ml-[120px] mr-[120px]'>
                 <p className='text-center md:text-left mb-4 md:mb-0'>© 2021 Hospital’s name. All Rights Reserved by PNTEC-LTD</p>
-                <div className='flex gap-3'>
+                <div className='flex gap-3 m-5 p-2'>
                     <img src={fotterIn} alt="LinkedIn" className='w-[24px]'/>
                     <img src={fotterFb} alt="Facebook" className='w-[24px]'/>
                     <img src={fotterInsta} alt="Instagram" className='w-[24px]'/>

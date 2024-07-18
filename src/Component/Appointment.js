@@ -4,7 +4,7 @@ import image4 from "./appointmentim.jpeg";
 const Contact = () => {
   return (
     <div>
-      <div className='relative h-[250px] w-[1366] m-auto top-[160px] '>
+      <div className='absolute  h-[250px] w-[1366px] m-auto top-[160px] '>
         <div
           className='absolute inset-0 bg-cover bg-center opacity-50'
           style={{ 

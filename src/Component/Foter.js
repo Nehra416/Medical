@@ -3,10 +3,10 @@ import Foterdata from './Foterdata';
 
 export const Foter = (props) => {
   return (
-    <div className='absolute top-[1702px] left-1/2 transform -translate-x-1/2 m-auto h-auto w-full sm:px-0 sm:w-[992px] sm:h-[363px] gap-4'>
-      <div className='h-[66px] w-[160px] text-center m-auto'>
+    <div className='absolute top-[1702px] left-[187px]  m-auto h-auto w-full sm:px-0 sm:w-[992px] sm:h-[363px] gap-4'>
+      <div className='h-[66px] w-[160px] text-center m-auto '>
         <p className='uppercase text-blue-500 text-xl font-sans font-semibold'>Get in Touch</p>
-        <h1 className='text-2xl text-black font-bold leading-4'>Contact</h1>
+        <h1 className='text-2xl text-black font-bold leading-4 mt-2'>Contact</h1>
       </div>
       <div className=' absolute flex justify-center m-auto sm:w-[992px] sm:h-[363px] w-full top-[130px]'>
         {Foterdata.map((item, index) => (
