@@ -1,6 +1,8 @@
 import React from 'react';
 import logo1 from './img/logo1.png';
 import logo2 from './img/logo2.png';
+import "./Navbar.css";
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -9,16 +11,16 @@ export const Navbar = () => {
         <div className='main_nav m-[-1]'>
           <div className='main_nav_con'>
             <div className='main_nav_con_1'>
-              Home
+              <Link to="/">Home</Link>
             </div>
             <div className='main_nav_con_1'>
-              About us
+               <Link to="/About"> About us</Link>
             </div>
-            <div  id='Doctorss'>
-              Services
+            <div className='main_nav_con_1' >
+              <Link to="/Service">Services</Link>
             </div>
-            <div className='main_nav_con_1'>
-              Doctors
+            <div id='Doctorss'>
+               <Link to="/Doctors">Doctors</Link>
             </div>
             <div className='main_nav_con_1'>
               News
@@ -32,7 +34,9 @@ export const Navbar = () => {
               <img src={logo1} id='logo1' />
             </div>
             <div className='side_con_logo1'>
-              <div className='side_con_logo11' >Appointment</div>
+              <div className='side_con_logo11' >
+                Appointment
+                </div>
             </div>
           </div>
         </div>
