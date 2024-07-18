@@ -6,7 +6,7 @@ import fotterInsta from './insta.png';
 
 export const Footer = () => {
     return (
-        <div className='bg-[#1F2B6C] px-[5%] mt-[300px] relative w-[1366px]'>
+        <div className='bg-[#1F2B6C] px-[5%] mt-[300px] relative top-[1802px] w-[1366px]'>
             <div className='text-white flex flex-col md:flex-row justify-center gap-8 pt-20 pb-10'>
                 <div className='w-full md:w-[250px] text-center md:text-left'>
                     <h1 className='text-[#BFD2F8] text-4xl mb-5' style={{ fontFamily: '"Yeseva One", serif' }}>Meddical</h1>
