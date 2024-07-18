@@ -1,9 +1,7 @@
 import React from 'react'
-import './Navbar.css'
 import Top_most from './Top_most'
 import  {Navbar}  from './Navbar'
 import  {Body} from './Body'
-
 import  Footer  from './Footer'
 
 
@@ -13,7 +11,6 @@ import  Footer  from './Footer'
       <Top_most />
       <Navbar />
       <Body />
-    
       <Footer/>
     </div>
   )
