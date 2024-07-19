@@ -4,7 +4,7 @@ import Top_most from "../Home/Top_most"
 import Nav_bar from "../Home/Nav_bar"
 import About_header from '../About/About_header'
 import Footer from "../Home/Footer"
-import Doctors from '../Home/Doctors'
+
 import News from '../Home/News'
 import Contact from '../Home/Contact'
 // Images
@@ -138,7 +138,7 @@ const About = () => {
             <About_header />
             <About_welcome/>
             <Testimonal />
-            <Doctors doctorImg={doctorImg} />
+           
             <News data={newsData} />
             <Contact Data={contactData} />
             <Footer />

@@ -4,7 +4,7 @@ import Service from "./Components/Pages/Service";
 import Single_service from "./Components/Pages/Single_service";
 import About from "./Components/Pages/About";
 import Ads from "./Components/Ads";
- import Doctors from "./Components/Home/Doctors";
+ import Doctors from "../src/componant/Doctors";
 function App() {
 
   return (
