@@ -46,7 +46,8 @@ const About = () => {
         {
             data: "Contact",
             ref: "/Contact"
-        }
+        },
+        
 
     ];
 
@@ -134,7 +135,7 @@ const About = () => {
         <div>
             <Top_most />
             <Nav_bar nav={navBar} />
-            <About_header  />
+            <About_header />
             <About_welcome/>
             <Testimonal />
             <Doctors doctorImg={doctorImg} />

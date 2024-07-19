@@ -2,17 +2,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Components/Pages/Home";
 import Service from "./Components/Pages/Service";
 import Single_service from "./Components/Pages/Single_service";
-import About from "./Components/Pages/About";
-
-
-//    import { Contact } from './Component/Contact';
-// import { Map } from './Component/Map';
-// import { Iteam1 } from './Component/Iteam1';
-// import Footer2 from './Component/Footer2';
-// import Footer from './Component/Footer';
+ import About from "./Components/Pages/About";
+import Ads from "./Components/Ads";
+ import Doctors from "./Components/Home/Doctors";
  import Maindata from "./Component/Maindata";
-import Usecustomhook from "./Component/Usecustom/Usecustomhook";
- 
+ import Single_service from "./Components/Pages/Single_service";
+  
 function App() {
 
   return (
@@ -25,6 +20,8 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/Single_service" element={<Single_service />} />
+          <Route path="/Doctors" element={<Doctors/>}></Route>
+        <Route path="/ads" element={<Ads/>}/>
           <Route path="/contact" element={<Maindata/>}/>
    
         </Routes>
@@ -44,5 +41,7 @@ function App() {
   );
 }
 
+
 export default App;
+ 
  

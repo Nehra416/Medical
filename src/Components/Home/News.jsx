@@ -5,17 +5,17 @@ const News = (props) => {
         <div>
             <div className='text-center'>
                 <p className='font-bold text-lg tracking-widest text-[#159EEC]'>Better information, Better health</p>
-                <h1 className='text-[#1F2B6C] text-3xl' style={{ fontFamily: '"Yeseva One", serif' }}>News</h1>
+                <h1 className='text-[#1F2B6C] text-3xl font-yeseva'>News</h1>
             </div>
-            <div className='flex w-[990px] flex-wrap justify-center gap-7 m-auto mt-20'>
+            <div className='flex max-w-[990px] sm:flex-wrap sm:flex-row flex-col justify-center gap-7 sm:m-auto sm:mt-20  mt-10 mx-3'>
                 {props.data.map((item, index) => {
                     return (
                         <>
-                            <div className={`flex gap-5 rounded-md ${item.shadow}`}>
-                                <img src={item.logo} alt="" className='w-40 h-40' />
-                                <div className='w-[270px]'>
+                            <div className={`flex sm:gap-5 gap-2 rounded-md ${item.shadow}`}>
+                                <img src={item.logo} alt="" className='max-w-40 max-h-40' />
+                                <div className='max-w-[270px] pr-1'>
                                     <p className='text-sm text-[#159EEC]'>{item.p1}</p>
-                                    <p className='text-lg'>{item.p2}</p>
+                                    <p className='sm:text-lg text-base'>{item.p2}</p>
                                     <div className='flex items-center gap-2'>
                                         <img src={item.logo2} alt="" className='w-4 h-[11px]' />
                                         <p>{item.l2}</p>

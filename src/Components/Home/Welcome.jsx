@@ -5,12 +5,12 @@ import welcomeBorder from "../Images/welcomeBorder.png";
 const Welcome = () => {
   return (
     <div>
-      <div className="text-center w-[658px] m-auto mt-28 relative">
+      <div className="text-center max-w-[800px] m-auto mt-28 relative">
         <p className="text-[#159EEC] font-bold tracking-widest text-lg">Welcome to Meddical</p>
-        <p className="text-[#1F2B6C] text-3xl leading-loose" style={{ fontFamily: '"Yeseva One", serif' }}>
+        <p className="text-[#1F2B6C] text-3xl py-4 font-yeseva" >
           A Great Place to Receive Care
         </p>
-        <p className="">
+        <p className="px-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           placerat scelerisque tortor ornare ornare. Convallis felis vitae
           tortor augue. Velit nascetur proin massa in. Consequat faucibus
@@ -22,14 +22,15 @@ const Welcome = () => {
       </div>
 
       <div
-        className="overflow-hidden h-[250px] m-auto relative my-5 mx-[12%]"
+        // tailwind config custom css bg-y-30 (background-position-y: 30%)
+        className="overflow-hidden h-[250px] relative my-5 mx-[12%] bg-center sm:bg-y-30 "
         style={{
           backgroundImage: `url(${welcome})`,
-          backgroundPositionY: "30%",
+
           backgroundSize: "cover",
         }}
       >
-        <img src={welcomeBorder} alt="" className="absolute bottom-0 h-2" />
+        <img src={welcomeBorder} alt="" className="absolute bottom-0 h-2 w-full" />
       </div>
     </div>
   );

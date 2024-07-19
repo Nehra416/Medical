@@ -3,10 +3,19 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  fontFamily: {
-    'yeseva': ['Yeseva One', 'serif'],
-    'sans': ['Work Sans', 'sans-serif']
+
+  theme: {
+    extend: {
+      backgroundPosition: {
+        'y-30': '0% 30%', // backgroundPositionY: "30%"
+      },
+      fontFamily: {
+        'yeseva': ['Yeseva One', 'serif'],
+        'sans': ['Work Sans', 'sans-serif'],
+      },
+    },
   },
+  plugins: [],
 
 }
 

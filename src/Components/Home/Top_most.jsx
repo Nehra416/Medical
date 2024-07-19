@@ -7,30 +7,30 @@ import { Link } from "react-router-dom";
 
 const Top_most = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center h-[60px] fixed top-0 z-50 bg-white w-full px-4">
-      <div className="text-4xl mb-2 md:mb-0" style={{ fontFamily: '"Yeseva One", serif' }}>
+    <div className="flex justify-evenly items-center h-[80px] fixed top-0 z-50 bg-white w-[1366px]">
+      <div className="sm:block hidden text-4xl font-yeseva" >
         <Link to="/">MED<span className="text-[#159EEC]">DICAL</span></Link>
       </div>
-      <div className="flex flex-col md:flex-row gap-4 font-medium">
-        <div className="flex gap-2 items-center">
-          <img src={call} alt="Call" className="w-[40px] h-[38px]" />
+      <div className="flex gap-8 font-medium">
+        <div className="flex sm:gap-4 gap-1 items-center sm:text-base text-sm">
+          <img src={call} alt="" className="sm:w-[40px] w-[30px] sm:h-[38px] h-[28px]" />
           <div>
-            <p className="text-sm md:text-base">Emergency</p>
-            <p className="text-[#159EEC] text-sm md:text-base">(237) 681-812-255</p>
+            <p>Emergency</p>
+            <p className="text-[#159EEC] text-xs sm:text-base">(237) 681-812-255</p>
           </div>
         </div>
-        <div className="flex gap-2 items-center">
-          <img src={time} alt="Work Hour" className="w-[30px] h-[30px]" />
+        <div className="flex sm:gap-4 gap-1 items-center">
+          <img src={time} alt="" className="sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]" />
           <div>
-            <p className="text-sm md:text-base">Work Hour</p>
-            <p className="text-[#159EEC] text-sm md:text-base">09:00 - 20:00 Everyday</p>
+            <p>Work Hour</p>
+            <p className="text-[#159EEC] text-xs sm:text-base">09:00-20:00 Perday</p>
           </div>
         </div>
-        <div className="flex gap-2 items-center">
-          <img src={location} alt="Location" className="w-[30px] h-9" />
+        <div className="flex sm:gap-4 gap-1 items-center">
+          <img src={location} alt="" className="sm:w-[30px] w-6 sm:h-9 h-7" />
           <div>
-            <p className="text-sm md:text-base">Location</p>
-            <p className="text-[#159EEC] text-sm md:text-base">0123 Some Place</p>
+            <p>Location</p>
+            <p className="text-[#159EEC] text-xs sm:text-base">0123 Some Place</p>
           </div>
         </div>
       </div>

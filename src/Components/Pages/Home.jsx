@@ -27,12 +27,33 @@ import Nav_bar from '../Home/Nav_bar';
 
 const Home = () => {
     const navBar = [
-        { data: "Home", ref: "/" },
-        { data: "About Us", ref: "/About" },
-        { data: "Services", ref: "/Service" },
-        { data: "Doctors", ref: "/Doctors" },
-        { data: "News", ref: "/News" },
-        { data: "Contact", ref: "/Contact" }
+        {
+            data: "Home",
+            ref: "/"
+        },
+        {
+            data: "About Us",
+            ref: "/About"
+        },
+        {
+            data: "Services",
+            ref: "/Service"
+        },
+        {
+            data: "Doctors",
+            ref: "/Doctors"
+        },
+        {
+            data: "News",
+            ref: "/News"
+        },
+        {
+            data: "Contact",
+            ref: "/Contact"
+        },
+      
+
+
     ];
 
     const service1 = ["A Passion for Healing", "All our best", "A Legacy of Excellence"];
@@ -45,8 +66,7 @@ const Home = () => {
         { logo: spec, p: 'Otorhinolaryngology', color: '', text: '' }
     ];
 
-    const specialties2 = ["Ophthalmology", "Cardiovascular", "Pulmonology", "Renal Medicine"];
-    const specialties3 = ["Gastroenterology", "Urology", "Dermatology", "Gynaecology"];
+    const data2 = ["Ophthalmology", "Cardiovascular", "Pulmonology", "Renal Medicine", "Gastroenterology", "Urology", "Dermatology", "Gynaecology"]
 
     const doctorImg = [doctor1, doctor2, doctor3];
 
@@ -69,18 +89,18 @@ const Home = () => {
     ];
 
     return (
+
         <div>
-            <TopMost />
-            {/* <NavBar nav={navBar} /> */}
-            <Nav_bar nav={navBar}/>
-            <HeroImage />
+            <Top_most />
+            <Nav_bar nav={navBar} />
+            <Hero_image />
             <Welcome />
             <Services service1={service1} service2={service2} />
-            <Specialties data1={specialtiesData} data2={specialties2} data3={specialties3} />
+            <Specialties data1={data1} data2={data2} />
             <Doctors doctorImg={doctorImg} />
             <News data={newsData} />
             <Contact Data={contactData} />
-            <Footer />
+             <Footer />
         </div>
     );
 };

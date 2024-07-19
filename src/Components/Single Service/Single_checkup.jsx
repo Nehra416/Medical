@@ -7,37 +7,37 @@ import service1 from "../Images/service1.png"
 
 const Single_checkup = () => {
     return (
-        <div className='flex justify-center gap-10 my-16'>
-            <div className='w-[240px] h-[480px] border-2 rounded-lg overflow-hidden'>
-                <div className='flex justify-center items-center gap-3 bg-[#1F2B6C] text-[#BFD2F8] text-center h-20'>
+        <div className='flex flex-col sm:flex-row justify-center gap-10 my-16'>
+            <div className='sm:w-[240px] sm:h-[480px] border-2 rounded-lg overflow-hidden flex sm:flex-col flex-row sm:gap-0'>
+                <div className='flex sm:flex-row flex-col justify-center items-center gap-3 bg-[#1F2B6C] text-[#BFD2F8] text-center h-20'>
                     <img src={single1} alt="" className='w-8' />
                     <p>Free Checkup</p>
                 </div>
-                <div className='flex justify-center items-center gap-3 text-center h-20'>
+                <div className='flex sm:flex-row flex-col justify-center items-center gap-3 text-center sm:h-20'>
                     <img src={single2} alt="" className='w-8' />
                     <p>Cardiogram</p>
                 </div>
-                <div className='flex justify-center items-center gap-3 text-center h-20'>
+                <div className='flex sm:flex-row flex-col justify-center items-center gap-3 text-center sm:h-20'>
                     <img src={serIcon3} alt="" className='w-8' />
                     <p>Dna Testing</p>
                 </div>
-                <div className='flex justify-center items-center gap-3 text-center h-20'>
+                <div className='flex sm:flex-row flex-col justify-center items-center gap-3 text-center sm:h-20'>
                     <img src={serIcon4} alt="" className='w-8' />
                     <p>Blood Bank</p>
                 </div>
-                <div className='flex justify-center items-center gap-3 text-center h-20'>
+                <div className='sm:flex hidden sm:flex-row flex-col justify-center items-center gap-3 text-center sm:h-20'>
                     <img src={serIcon3} alt="" className='w-8' />
                     <p>Dermalogy</p>
                 </div>
-                <div className='flex justify-center items-center gap-3 text-center h-20'>
+                <div className='sm:flex hidden sm:flex-row flex-col justify-center items-center gap-3 text-center sm:h-20'>
                     <img src={serIcon3} alt="" className='w-8' />
                     <p>Orthopedic</p>
                 </div>
             </div>
             {/* 2nd coloumn */}
-            <div className='w-[730px]'>
-                <img src={service1} alt="" className='h-[450px] w-[730px]' />
-                <h1 className='text-[#1F2B6C] text-3xl py-4' style={{ fontFamily: '"Yeseva One", serif' }}>A passion for putting patients first</h1>
+            <div className='max-w-[730px]'>
+                {/* <img src={service1} alt="" className='max-h-[450px] max-w-[730px]' /> */}
+                <h1 className='text-[#1F2B6C] text-3xl py-4 font-yeseva' >A passion for putting patients first</h1>
                 <div className='grid grid-cols-3 text-lg gap-5'>
                     <div className='flex gap-3 items-center'>
                         <div className='bg-[#159EEC] w-4 h-4 rounded-full'></div>
@@ -59,7 +59,7 @@ const Single_checkup = () => {
                         <div className='bg-[#159EEC] w-4 h-4 rounded-full'></div>
                         Believe in Us
                     </div>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-center '>
                         <div className='bg-[#159EEC] w-4 h-4 rounded-full'></div>
                         Always Caring
                     </div>

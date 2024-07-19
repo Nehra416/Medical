@@ -8,7 +8,7 @@ const Single_Service_header = () => {
             <img src={border} alt="" className='absolute bottom-0 w-full h-2' />
             <div className='absolute top-[76px] left-[187px]'>
                 <p className='text-[#1F2B6C] text-lg'>Home / Services</p>
-                <h1 className='text-[#1F2B6C] text-5xl' style={{ fontFamily: '"Yeseva One", serif' }}>Free Checkup</h1>
+                <h1 className='text-[#1F2B6C] text-5xl font-yeseva' >Free Checkup</h1>
             </div>
         </div>
     )
