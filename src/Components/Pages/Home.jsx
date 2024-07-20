@@ -1,7 +1,7 @@
 import React from 'react'
 // components
 import Contact from "../Home/Contact";
-import Dr from "../Home/Dr"
+import Dr from "../Home/Dr";
 import Hero_image from "../Home/Hero_image";
 import Nav_bar from "../Home/Nav_bar";
 import Services from "../Home/Services";

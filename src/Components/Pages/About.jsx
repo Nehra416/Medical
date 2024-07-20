@@ -4,7 +4,7 @@ import Top_most from "../Home/Top_most"
 import Nav_bar from "../Home/Nav_bar"
 import About_header from '../About/About_header'
 import Footer from "../Home/Footer"
-
+import Dr from '../Home/Dr'
 import News from '../Home/News'
 import Contact from '../Home/Contact'
 // Images
@@ -47,7 +47,7 @@ const About = () => {
             data: "Contact",
             ref: "/Contact"
         },
-        
+
 
     ];
 
@@ -136,9 +136,9 @@ const About = () => {
             <Top_most />
             <Nav_bar nav={navBar} />
             <About_header />
-            <About_welcome/>
+            <About_welcome />
             <Testimonal />
-           
+            <Dr doctorImg={doctorImg} />
             <News data={newsData} />
             <Contact Data={contactData} />
             <Footer />
