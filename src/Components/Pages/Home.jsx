@@ -1,7 +1,7 @@
 import React from 'react'
 // components
 import Contact from "../Home/Contact";
-
+import Dr from "../Home/Dr"
 import Hero_image from "../Home/Hero_image";
 import Nav_bar from "../Home/Nav_bar";
 import Services from "../Home/Services";
@@ -50,8 +50,6 @@ const Home = () => {
             data: "Contact",
             ref: "/Contact"
         },
-      
-
 
     ];
 
@@ -176,10 +174,10 @@ const Home = () => {
             <Welcome />
             <Services service1={service1} service2={service2} />
             <Specialties data1={data1} data2={data2} />
-      
+            <Dr doctorImg={doctorImg} />
             <News data={newsData} />
             <Contact Data={contactData} />
-             <Footer />
+            <Footer />
         </div>
     )
 }
