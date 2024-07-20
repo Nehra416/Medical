@@ -46,7 +46,7 @@ const Nav_bar = (props) => {
         </div>
 
         <ul className="sm:flex gap-10 text-white text-lg hidden">
-          {props.navBar.map((item, index) => {
+          {props.nav.map((item, index) => {
             return <ul key={index}><li className=" sm:block"><Link to={item.ref}>{item.data}</Link></li></ul>;
           })}
         </ul>
@@ -56,7 +56,7 @@ const Nav_bar = (props) => {
       <div className="sm:flex gap-5 items-center cursor-pointer hidden">
         <img src={search} alt="Search" className="w-5 h-5" />
         <button className="bg-[#BFD2F8] rounded-3xl py-3 px-8 font-medium">
-          Appointment
+          <Link to="/ads">Appointment</Link>
         </button>
       </div>
 
