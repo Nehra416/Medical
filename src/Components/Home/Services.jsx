@@ -46,13 +46,11 @@ const Services = (props) => {
             <div className="flex flex-col sm:text-lg">
               {props.service1.map((item, index) => {
                 return (
-                  <>
-                    <div className="flex gap-2  items-baseline">
-                      {/* dot div don't work proper */}
-                      <img src={dot} alt="" className="w-3 h-3" />
-                      <p key={index}>{item}</p>
-                    </div>
-                  </>
+                  <div className="flex gap-2  items-baseline" key={index}>
+                    {/* dot div don't work proper */}
+                    <img src={dot} alt="" className="w-3 h-3" />
+                    <p>{item}</p>
+                  </div>
                 );
               })}
             </div>
@@ -60,12 +58,10 @@ const Services = (props) => {
             <div className="flex flex-col sm:text-lg">
               {props.service1.map((item, index) => {
                 return (
-                  <>
-                    <div className="flex  gap-2  items-baseline">
-                      <img src={dot} alt="" className="w-3 h-3" />
-                      <p key={index}>{item}</p>
-                    </div>
-                  </>
+                  <div className="flex  gap-2  items-baseline" key={index}>
+                    <img src={dot} alt="" className="w-3 h-3" />
+                    <p>{item}</p>
+                  </div>
                 );
               })}
             </div>
