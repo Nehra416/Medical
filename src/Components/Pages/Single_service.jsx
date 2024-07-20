@@ -5,7 +5,7 @@ import Contact from '../Home/Contact'
 import Footer from '../Home/Footer'
 import Single_Service_header from '../Single Service/Single_Service_header'
 import Single_checkup from '../Single Service/Single_checkup'
-import Doctors from '../Home/Doctors'
+import Doctors from '../Home/Dr'
 // Images
 import contact1 from "../Images/contact1.png"
 import contact2 from "../Images/contact2.png"

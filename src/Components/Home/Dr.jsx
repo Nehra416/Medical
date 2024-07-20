@@ -3,7 +3,7 @@ import Lin from "../Images/Lin.png"
 import fb from "../Images/fb.png"
 import insta from "../Images/insta.png"
 
-const Doctors = (props) => {
+const Dr = (props) => {
     return (
         <div>
             <div className='text-center'>
@@ -43,4 +43,4 @@ const Doctors = (props) => {
     )
 }
 
-export default Doctors
+export default Dr
