@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import spec from "../Images/spec.png"
 import booking from "../Images/booking.png"
 
 const Specialties = (props) => {
+  const [viewMore, setviewMore] = useState(false)
+  const more = () => {
+    console.log(viewMore)
+    setviewMore(!viewMore)
+  }
+
   return (
     <div>
       {/* First part */}
@@ -14,30 +20,30 @@ const Specialties = (props) => {
       <div className='my-16 sm:mx-[8%] mx-3 border rounded-lg overflow-hidden'>
 
         <div className="grid sm:grid-cols-4 justify-center grid-cols-2 sm:text-base text-sm">
-          {props.data1.map((item, index) => {
-            return (
-              <>
-                <div className={`border text-center text-[${item.text}] py-10 bg-[${item.color}]`}>
-                  <img src={item.logo} alt="" className='w-[50px] m-auto pb-2' key={index} />
-                  <p key={index}>{item.p}</p>
-                </div>
-              </>
-            )
-          })}
+          {props.data1.map((item, index) => (
+            <div className={`border text-center text-[${item.text}] py-10 bg-[${item.color}]`} key={index}>
+              <img src={item.logo} alt="" className='w-[50px] m-auto pb-2' />
+              <p>{item.p}</p>
+            </div>
+          ))}
         </div>
 
-        <div className="grid sm:grid-cols-4 justify-center grid-cols-2 sm:text-base text-sm">
-          {props.data2.map((item, index) => {
-            return (
-              <>
-                <div className='border text-center py-10 '>
-                  <img src={spec} alt="" className='w-[50px] m-auto pb-2' key={index} />
-                  <p key={index}>{item}</p>
-                </div>
-              </>
-            )
-          })}
+        <button className={`${viewMore ? 'hidden' : 'block'} sm:hidden bg-[#1F2B6C] text-white text-2xl font-semibold p-4 rounded-lg text-center w-full`} onClick={more}>
+          View All
+        </button>
+
+        <div className={`grid sm:grid-cols-4 justify-center grid-cols-2 sm:text-base text-sm sm:grid ${viewMore ? 'block' : 'hidden'}`}>
+          {props.data2.map((item, index) => (
+            <div className='border text-center py-10 ' key={index}>
+              <img src={spec} alt="" className='w-[50px] m-auto pb-2' />
+              <p>{item}</p>
+            </div>
+          ))}
         </div>
+
+        <button type="button" className={`${viewMore ? 'block' : 'hidden'} sm:hidden bg-[#1F2B6C] text-white text-2xl font-semibold p-4 rounded-lg text-center w-full`} onClick={more}>
+          View Less
+        </button>
 
       </div>
 

@@ -16,7 +16,7 @@ const Doctors = (props) => {
                     {props.doctorImg.map((img, index) => {
                         return (
                             // Why flex don't work here
-                            <div className='sm:grid-cols-1 sm:mx-0 mx-5 grid grid-cols-2 rounded-md overflow-hidden'>
+                            <div className='sm:grid-cols-1 sm:mx-0 mx-5 grid grid-cols-2 rounded-md overflow-hidden' key={index}>
                                 <img src={img} alt="" className='w-full h-full bg-cover bg-center' />
                                 <div className='bg-[#BFD2F8] text-[#1F2B6C] text-center rounded-b-lg relative'>
                                     <p className='text-lg pt-5'>Doctor’s Name</p>
