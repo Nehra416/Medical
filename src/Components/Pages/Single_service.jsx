@@ -7,46 +7,25 @@ import Single_Service_header from '../Single Service/Single_Service_header'
 import Single_checkup from '../Single Service/Single_checkup'
 import Dr from '../Home/Dr'
 // Images
-import contact1 from "../Images/contact1.png"
-import contact2 from "../Images/contact2.png"
-import contact3 from "../Images/contact3.png"
-import contact4 from "../Images/contact4.png"
-
-import doctor1 from "../Images/doctor1.png"
-import doctor2 from "../Images/doctor2.png"
-import doctor3 from "../Images/doctor3.png"
+import contact1 from "../Images/contact1.png";
+import contact2 from "../Images/contact2.png";
+import contact3 from "../Images/contact3.png";
+import contact4 from "../Images/contact4.png";
+import doctor1 from "../Images/doctor1.png";
+// import doctor2 from "../Images/doctor2.png"; // Uncomment if needed
+// import doctor3 from "../Images/doctor3.png"; // Uncomment if needed
 
 const Single_service = () => {
     const navBar = [
-        {
-            data: "Home",
-            ref: "/"
-        },
-        {
-            data: "About Us",
-            ref: "/About"
-        },
-        {
-            data: "Services",
-            ref: "/Service"
-        },
-        {
-            data: "Doctors",
-            ref: "/Doctors"
-        },
-        {
-            data: "News",
-            ref: "/News"
-        },
-        {
-            data: "Contact",
-            ref: "/Contact"
-        }
-
+        { data: "Home", ref: "/" },
+        { data: "About Us", ref: "/About" },
+        { data: "Services", ref: "/Service" },
+        { data: "Doctors", ref: "/Doctors" },
+        { data: "News", ref: "/News" },
+        { data: "Contact", ref: "/Contact" }
     ];
 
-
-    const doctorImg = [doctor1, doctor2, doctor3]
+    const doctorImg = [doctor1]; // Add doctor2 and doctor3 if defined
 
     const contactData = [
         {
@@ -81,7 +60,7 @@ const Single_service = () => {
             color: '#BFD2F8',
             text: '#1F2B6C'
         },
-    ]
+    ];
 
     return (
         <div>
@@ -93,7 +72,7 @@ const Single_service = () => {
             <Contact Data={contactData} />
             <Footer />
         </div>
-    )
-}
+    );
+};
 
-export default Single_service
+export default Single_service;
