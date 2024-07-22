@@ -1,11 +1,11 @@
-import React from 'react';
-import Top_most from '../Home/Top_most';
-import Nav_bar from '../Home/Nav_bar';
-import Contact from '../Home/Contact';
-import Footer from '../Home/Footer';
-import Single_Service_header from '../Single Service/Single_Service_header';
-import Single_checkup from '../Single Service/Single_checkup';
-// import Doctors from '../Home/Doctor';
+import React from 'react'
+import Top_most from '../Home/Top_most'
+import Nav_bar from '../Home/Nav_bar'
+import Contact from '../Home/Contact'
+import Footer from '../Home/Footer'
+import Single_Service_header from '../Single Service/Single_Service_header'
+import Single_checkup from '../Single Service/Single_checkup'
+import Dr from '../Home/Dr'
 // Images
 import contact1 from "../Images/contact1.png";
 import contact2 from "../Images/contact2.png";
@@ -68,7 +68,8 @@ const Single_service = () => {
             <Nav_bar navBar={navBar} />
             <Single_Service_header />
             <Single_checkup />
-             <Contact Data={contactData} /> {/* Ensure 'Data' is expected by Contact */}
+            <Dr doctorImg={doctorImg} />
+            <Contact Data={contactData} />
             <Footer />
         </div>
     );

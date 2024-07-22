@@ -1,8 +1,9 @@
 import React from 'react';
 // components
 import Contact from "../Home/Contact";
- import HeroImage from "../Home/Hero_image"; // Adjusted to camel case
-import NavBar from "../Home/Nav_bar"; // Adjusted to camel case
+import Dr from "../Home/Dr";
+import Hero_image from "../Home/Hero_image";
+import Nav_bar from "../Home/Nav_bar";
 import Services from "../Home/Services";
 import Specialties from "../Home/Specialties";
 //import TopMost from "../Home/Top_most"; // Adjusted to camel case
@@ -22,9 +23,8 @@ import contact4 from "../Images/contact4.png";
 import news from "../Images/news.png";
 import eye from "../Images/eye.png";
 import heart from "../Images/heart.png";
-import Nav_bar from '../Home/Nav_bar';
 import Top_most from '../Home/Top_most';
-import Hero_image from '../Home/Hero_image';
+
 
 const Home = () => {
     const navBar = [
@@ -52,8 +52,6 @@ const Home = () => {
             data: "Contact",
             ref: "/Contact"
         },
-      
-
 
     ];
 
@@ -97,9 +95,11 @@ const Home = () => {
              <Hero_image/>
              <Welcome />
             <Services service1={service1} service2={service2} />
-              <News data={newsData} />
+            <Specialties data2={data2} />
+            <Dr doctorImg={doctorImg} />
+            <News data={newsData} />
             <Contact Data={contactData} />
-             <Footer />
+            <Footer />
         </div>
     );
 };

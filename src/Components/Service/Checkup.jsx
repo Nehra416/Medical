@@ -8,8 +8,9 @@ const Checkup = (props) => {
         <div className='grid sm:grid-cols-3 grid-cols-1 sm:mx-[12%] mx-[5%] my-[7%] gap-8 '>
             <div className='border-2 rounded-md overflow-hidden sm:block '>
                 <div className='relative'>
-                    <img src={serviceDr} alt="" className='h-[300px]' />
-                    <img src={serIcon1} alt="" className='absolute bg-[rgba(31,43,108,0.5)] p-[110px] w-full h-full top-0' />
+                    {/* 1000px  for cover all container*/}
+                    <img src={serviceDr} alt="" className='w-[1000px]' />
+                    <div className='relative'><img src={serIcon1} alt="" className='absolute bg-[rgba(31,43,108,0.5)] p-[40%] bottom-0' /></div>
                 </div>
                 <div className='p-5'>
                     <h1 className='text-[#1F2B6C] text-[26px] font-medium pt-5'>Free Checkup</h1>
@@ -20,17 +21,15 @@ const Checkup = (props) => {
 
             {props.checkup.map((item, index) => {
                 return (
-                    <>
-                        <div className='border-2 rounded-md relative'>
-                            <img src={serviceDr} alt="" className='h-[300px] w-[]' />
-                            <img src={serIcon1} alt="" className='bg-[#1F2B6C] rounded-full w-[70px] p-[25px] absolute right-[20px] top-[260px]' />
-                            <div className='p-5'>
-                                <h1 className='text-[#1F2B6C] text-[26px] font-medium pt-5'>{item.h1}</h1>
-                                <p>{item.p}</p>
-                                <button className='text-[#159EEC]'><Link to="/Single_service">{item.btn} &rarr;</Link></button>
-                            </div>
+                    <div className='border-2 rounded-md relative' key={index}>
+                        <img src={serviceDr} alt="" className='w-[1000px]' />
+                        <div className='relative'><img src={serIcon1} alt="" className='bg-[#1F2B6C] rounded-full w-[70px] p-[25px] absolute right-[20px] -bottom-8' /></div>
+                        <div className='p-5'>
+                            <h1 className='text-[#1F2B6C] text-[26px] font-medium pt-5'>{item.h1}</h1>
+                            <p>{item.p}</p>
+                            <button className='text-[#159EEC]'><Link to="/Single_service">{item.btn} &rarr;</Link></button>
                         </div>
-                    </>
+                    </div>
                 )
             })}
         </div>

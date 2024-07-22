@@ -34,7 +34,7 @@ export const Navbar = () => {
             </div>
             <div className='w-[173px] h-[45px] gap-[10px] rounded-[50px] bg-[#BFD2F8] ml-[30px]'>
               <div className='pt-[11px] pl-[40px] w-[103px] h-[19px] text-[16px] font-[500] leading-[18.11px] text-[#1F2B6C]' >
-                Appointment
+                <Link to="/ads">Appointment</Link>
                 </div>
             </div>
           </div>
