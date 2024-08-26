@@ -27,10 +27,10 @@ const navbar=[
         data: "Doctors",
         ref: "/Doctors"
     },
-    {
-        data: "News",
-        ref: "/News"
-    },
+    // {
+    //     data: "News",
+    //     ref: "/News"
+    // },
     {
         data: "Contact",
         ref: "/Contact"

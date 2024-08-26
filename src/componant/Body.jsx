@@ -17,7 +17,7 @@ import contact4 from './img/contact4.png';
 export const Body = () => {
     return (
         <>
-            <div className="fist_div">
+            <div className="fist_div mt-32">
                 <div className="w-[1366px] relative z-0 opacity-[50%] "><img src={photo1} /></div>
                 <div className="w-[239px]  absolute h-[239px] bg-[#159EEC] rounded-[250px] top-10 -left-[120px] z-[-5] opacity-[30%]" ></div>
                 <div className="relative z-2  w-[296px] h-[76px] -top-[176px] ml-[175px] text-[#1F2B6C]">
@@ -104,14 +104,14 @@ export const Body = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[1366px] h-[441px] mt-[40px] ">
-                <div className="relative"> <img src={photo5} /></div>
-                <div className="absolute w-[1366px] h-[441px] bg-[#1F2B6C] opacity-[60%] top-[1630px]"></div>
-                <div className="absolute w-[45px] h-[30px] top-[1700px] z-10 ml-[661px] "><img src={Vector} alt="" srcset="" /></div>
-                <div className=" absolute text-[22px] top-[1768px] ml-[354px] text-[#FCFEFE] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Quisque placerat scelerisque tortor ornare ornare. Quisque <br /> placerat scelerisque felis vitae tortor augue. Velit nascetur <br />Consequat faucibus porttitor enim et.</div>
-                <div className="absolute w-[221px] h-[1px] bg-[#BFD2F8] top-[1915px] ml-[572px]"></div>
-                <div className="absolute top-[1925px] ml-[632px] text-[22px] text-[#FCFEFE]">John Doe</div>
-                <div className="absolute top-[2000px] w-[74px] h-[18px] ml-[646px]"><img src={Group62} alt="" /></div>
+            <div className="w-[1366px] h-[441px] mt-[40px] relative">
+                <div className=""> <img src={photo5} /></div>
+                <div className="absolute w-[1366px] h-[441px] bg-[#1F2B6C] opacity-[60%] top-[0px]"></div>
+                <div className="absolute w-[45px] h-[30px] top-[70px] z-10 ml-[661px] "><img src={Vector} alt="" srcset="" /></div>
+                <div className=" absolute text-[22px] top-[130px] ml-[354px] text-[#FCFEFE] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Quisque placerat scelerisque tortor ornare ornare. Quisque <br /> placerat scelerisque felis vitae tortor augue. Velit nascetur <br />Consequat faucibus porttitor enim et.</div>
+                <div className="absolute w-[221px] h-[1px] bg-[#BFD2F8] bottom-[150px] ml-[572px]"></div>
+                <div className="absolute bottom-[100px] ml-[632px] text-[22px] text-[#FCFEFE]">John Doe</div>
+                <div className="absolute bottom-[50px] w-[74px] h-[18px] ml-[646px]"><img src={Group62} alt="" /></div>
             </div>
             <div className="w-[1366px] h-[636px]">
                 <div>
@@ -163,25 +163,25 @@ export const Body = () => {
                 <div className=' pt-[30px] w-[120px] h-[36px] text-[#000000] text-[31px] ml-[624px]'>Contact</div>
             </div>
             <div className='flex h-[400px]'>
-                <div className='ml-[168px] w-[233px] h-[233px] bg-[#F1F1F1]'>
+                <div className='ml-[168px] w-[233px] h-[233px] bg-[#BFD2F8]'>
                     <div className='w-[40.2px] h-[38.19px] ml-[40px] pt-[50px]'><img src={contact1} alt="" srcset="" /></div>
                     <div className='ml-[25px] pt-[40px] w-[113px] h-[21px] text-[18px] text-[#1F2B6C]'>Emergency</div>
                     <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>
                     <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>
                 </div>
-                <div className=' ml-[30px] w-[233px] h-[233px] bg-[#F1F1F1]'>
+                <div className=' ml-[30px] w-[233px] h-[233px] bg-[#1F2B6C]'>
                     <div className='w-[40.2px] h-[38.19px] ml-[40px] pt-[50px]'><img src={contact2} alt="" srcset="" /></div>
-                    <div className='ml-[25px] pt-[50px] w-[113px] h-[21px] text-[18px] text-[#1F2B6C]'>Emergency</div>
-                    <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>
-                    <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>
+                    <div className='ml-[25px] pt-[50px] w-[113px] h-[21px] text-[18px] text-[#BFD2F8]'>Emergency</div>
+                    <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#BFD2F8]'>(237) 681-812-255</div>
+                    <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#BFD2F8]'>(237) 681-812-255</div>
                 </div>
-                <div className='ml-[30px] w-[233px] h-[233px] bg-[#F1F1F1]'>
+                <div className='ml-[30px] w-[233px] h-[233px] bg-[#BFD2F8]'>
                     <div className='w-[40.2px] h-[38.19px] ml-[40px] pt-[50px]'><img src={contact3} alt="" srcset="" /></div>
                     <div className='ml-[25px] pt-[40px] w-[113px] h-[21px] text-[18px] text-[#1F2B6C]'>Emergency</div>
                     <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>
                     <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>
                 </div>
-                <div className='ml-[30px] w-[233px] h-[233px] bg-[#F1F1F1]'>
+                <div className='ml-[30px] w-[233px] h-[233px] bg-[#BFD2F8]'>
                     <div className='w-[40.2px] h-[38.19px] ml-[40px] pt-[50px]'><img src={contact4} alt="" srcset="" /></div>
                     <div className='ml-[25px] pt-[40px] w-[113px] h-[21px] text-[18px] text-[#1F2B6C]'>Emergency</div>
                     <div className='ml-[30px] pt-[30px] w-[138px] h-[22px] text-[16px] text-[#1F2B6C]'>(237) 681-812-255</div>

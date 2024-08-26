@@ -44,10 +44,10 @@ const Home = () => {
             data: "Doctors",
             ref: "/Doctors"
         },
-        {
-            data: "News",
-            ref: "/News"
-        },
+        // {
+        //     data: "News",
+        //     ref: "/News"
+        // },
         {
             data: "Contact",
             ref: "/Contact"
@@ -64,6 +64,33 @@ const Home = () => {
         { logo: spec, p: 'Oncology', color: '', text: '' },
         { logo: spec, p: 'Otorhinolaryngology', color: '', text: '' }
     ];
+
+    const data1 = [
+        {
+            logo: spec,
+            p: 'Neurology',
+            color: '',
+            text: ''
+        },
+        {
+            logo: spec2,
+            p: 'Bones',
+            color: '#1F2B6C',
+            text: '#BFD2F8'
+        },
+        {
+            logo: spec,
+            p: 'Oncology',
+            color: '',
+            text: ''
+        },
+        {
+            logo: spec,
+            p: 'Otorhinolaryngology',
+            color: '',
+            text: ''
+        }
+    ]
 
     const data2 = ["Ophthalmology", "Cardiovascular", "Pulmonology", "Renal Medicine", "Gastroenterology", "Urology", "Dermatology", "Gynaecology"]
 
@@ -95,7 +122,7 @@ const Home = () => {
              <Hero_image/>
              <Welcome />
             <Services service1={service1} service2={service2} />
-            <Specialties data2={data2} />
+            <Specialties data2={data2} data1={data1} />
             <Dr doctorImg={doctorImg} />
             <News data={newsData} />
             <Contact Data={contactData} />
