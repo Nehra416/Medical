@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# 🏥 Medical – React Frontend Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo** 👉 [https://medical-ten-inky.vercel.app/](https://medical-ten-inky.vercel.app/)
 
-## Available Scripts
+**Medical** is a modern frontend web application built using **React** and **Tailwind CSS**, designed to showcase hospital details, available treatments, doctors' information, opening hours, and appointment booking options. It serves as the UI layer of a medical service or clinic website.
 
-In the project directory, you can run:
 
-### `npm start`
+## 🔍 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🏥 Clean homepage with hospital information  
+- 👨‍⚕️ Doctor profiles & specializations  
+- 🧪 Treatments & services overview  
+- 🕒 Opening hours  
+- 📅 Appointment booking UI  
+- 📱 Responsive design with Tailwind CSS  
+- 🔁 Client-side routing via React Router  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tech Stack
 
-### `npm run build`
+- **React 18**
+- **React Router DOM**
+- **Tailwind CSS**
+- **Create React App**
+- **Testing Library** (Jest + React Testing Library)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Nehra416/medical.git
+   ```
+     Then ```cd medical```
 
-### `npm run eject`
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Project Structure
 
-## Learn More
+```
+medical/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── tailwind.config.js
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributors
 
-### Code Splitting
+| Name             | Role        |
+|------------------|-------------|
+| 👤 Deepak Nehra(me)   | Developer   |
+| 👥 Veena Verma    | Contributor |
+| 👥 Sachin Beniwal | Contributor |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the **MIT License** — free to use, share, and contribute!
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📬 Contact
 
-### Advanced Configuration
+- 📧 LinkedIn: [@deepak-nehra](https://www.linkedin.com/in/deepak-nehra/)
+- 📧 GitHub: [@Nehra416](https://github.com/Nehra416)
+- 🔗 Live Site: [https://medical-ten-inky.vercel.app/](https://medical-ten-inky.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📸 Preview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Homepage](https://res.cloudinary.com/nehra1800/image/upload/v1749730381/MedicalHomePage.png)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
